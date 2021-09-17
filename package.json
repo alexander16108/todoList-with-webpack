@@ -1,26 +1,30 @@
 {
-  "name": "todolist-with-webpack",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/alexander16108/todoList-with-webpack.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/alexander16108/todoList-with-webpack/issues"
-  },
-  "homepage": "https://github.com/alexander16108/todoList-with-webpack#readme",
-  "devDependencies": {
-    "stylelint": "^13.13.1",
-    "stylelint-config-standard": "^21.0.0",
-    "stylelint-csstree-validator": "^1.9.0",
-    "stylelint-scss": "^3.21.0"
-  }
+   "name": "webpack-demo",
+   "version": "1.0.0",
+   "description": "",
+   "private": true,
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "build": "webpack",
+      "start": "webpack serve --open"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "MIT",
+   "devDependencies": {
+      "css-loader": "^6.2.0",
+      "hint": "^6.1.4",
+      "html-webpack-plugin": "^5.3.2",
+      "style-loader": "^3.2.1",
+      "stylelint": "^13.13.1",
+      "stylelint-config-standard": "^21.0.0",
+      "stylelint-csstree-validator": "^1.9.0",
+      "stylelint-scss": "^3.21.0",
+      "webpack": "^5.53.0",
+      "webpack-cli": "^4.8.0",
+      "webpack-dev-server": "^4.2.1"
+   },
+   "dependencies": {
+      "lodash": "^4.17.21"
+   }
 }
