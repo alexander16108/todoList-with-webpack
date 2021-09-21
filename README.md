@@ -1,12 +1,11 @@
 # todoList-with-webpack
-# Chaws-Awesome-B00k-Store
 
 ## Project Description
-- A lightweight JavaScript project that allows users to interact with a fully client-based interface. Users can add Task that they do to easily keep track of their task. The added tasks can be removed from the list by using the "Remove Task" button.
+ > "To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. You will build a simple website that allows for doing that, and you will do it using ES6 and Webpack!
 
 
 ## Getting Started
-If you want a copy of this file go to the github repository and download it
+> If you want a copy of this file go to the github repository and download it. 
 
 <!-- - [`git clone https://github.com/alexander16108/Chaws-Awesome-B00k-Store/`](https://github.com/alexander16108/Chaws-Awesome-B00k-Store.git) -->
 
