@@ -21,6 +21,11 @@ const content = [
     completed: false,
     description: 'wash the dishes'
   },
+  {
+    index: 4,
+    completed: false,
+    description: 'wash the dishes'
+  },
 ];
 
 function displayTask() {
@@ -34,11 +39,12 @@ function displayTask() {
         }'>
                    <i class='fas fa-ellipsis-v move-element' data-id='${element.index}'></i>
                    </li>
-                   <hr>
                    `
                    container.innerHTML += structure;
     });
   }
 }
+
+// module.exports = {displayTask};
 
 displayTask();
