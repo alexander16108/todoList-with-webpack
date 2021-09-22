@@ -7,16 +7,19 @@
 ## Getting Started
 > If you want a copy of this file go to the github repository and download it. 
 
-<!-- - [`git clone https://github.com/alexander16108/Chaws-Awesome-B00k-Store/`](https://github.com/alexander16108/Chaws-Awesome-B00k-Store.git) -->
+- [`git clone https://github.com/alexander16108/todoList-with-webpack.git`](https://github.com/alexander16108/todoList-with-webpack.git)
 
 After cloning it you can see the project opening the index.html file with your favorite browser 
 
 
 ## Screenshot of the page
 
+![image](https://user-images.githubusercontent.com/60612329/134370021-45118641-d933-4dc1-90ff-630bc9b59540.png)
+
+
 ### Live Version Link
 
- <!-- [Live Version](https://alexander16108.github.io/Chaws-Awesome-B00k-Store/) -->
+ [Live Version](https://alexander16108.github.io/todoList-with-webpack/dist)
 
 
 ### Build With
