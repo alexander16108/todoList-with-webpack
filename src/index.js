@@ -2,7 +2,7 @@ import './style.css';
 import updateStatus from './status.js'
 
 const container = document.getElementById('output-container');
-let content = [
+let content = JSON.parse(localStorage.getItem('taskContent')) || [
   {
     index: 0,
     completed: true,
@@ -52,9 +52,7 @@ function displayTask() {
 }
 
 window.addEventListener('DOMContentLoaded', () => {
-  if(localStorage.getItem('taskContent')) {
-    content = JSON.parse(localStorage.getItem('taskContent'))
-  } else {
+  if(!localStorage.getItem('taskContent')) {
     localStorage.setItem('taskContent', JSON.stringify(content))
   }
 });
