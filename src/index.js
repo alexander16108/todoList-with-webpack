@@ -2,33 +2,7 @@ import './style.css';
 import updateStatus from './status.js'
 
 const container = document.getElementById('output-container');
-let content = JSON.parse(localStorage.getItem('taskContent')) || [
-  {
-    index: 0,
-    completed: true,
-    description: 'wash the dishes'
-  },
-  {
-    index: 1,
-    completed: false,
-    description: 'wash the dishes'
-  },
-  {
-    index: 2,
-    completed: true,
-    description: 'wash the dishes'
-  },
-  {
-    index: 3,
-    completed: false,
-    description: 'wash the dishes'
-  },
-  {
-    index: 4,
-    completed: false,
-    description: 'wash the dishes'
-  },
-];
+let content = JSON.parse(localStorage.getItem('taskContent')) || [];
 
 function displayTask() {
   if (content != []) {
