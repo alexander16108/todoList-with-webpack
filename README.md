@@ -5,11 +5,82 @@
 
 
 ## Getting Started
-> If you want a copy of this file go to the github repository and download it. 
+Things done so far:
 
-- [`git clone https://github.com/alexander16108/todoList-with-webpack.git`](https://github.com/alexander16108/todoList-with-webpack.git)
+### 1. Create list structure
 
-After cloning it you can see the project opening the index.html file with your favorite browser 
+- Use custom-built Webpack boilerplate
+- Implement app structure using classes
+- Populate to-do list dynamically on page load
+- Implement event listener using promise
+- Configure repository to deploy from Webpack output directory
+
+### 2. Make list interactive
+
+- Track task status
+- Implement Web Storage API for local storage of tasks
+
+
+## Built With
+
+- Major languages: HTML, SCSS, JS
+- Technologies used: Lighthouse, Webhint, Stylelint, ESLint, Webpack
+
+
+## Getting Started
+
+To get a local copy up and running, follow the steps below in your terminal.
+
+### Prerequisites
+
+- Node.js
+- npm
+
+### Setup
+
+Clone the project:
+
+```
+git clone https://github.com/alexander16108/todoList-with-webpack.git
+```
+
+### Install
+
+There are currently no production dependencies.
+
+Install the development dependencies:
+
+```
+npm install
+```
+
+### Usage
+
+The assets are in the `src` directory.
+
+The output is in the `dist` directory.
+
+### Run tests
+
+To run the entire test suite:
+
+```
+npm test
+```
+
+### Deployment
+
+To build the website:
+
+```
+npm run build
+```
+
+To serve the website directly:
+
+```
+npm run start
+```
 
 
 ## Screenshot of the page
@@ -22,14 +93,6 @@ After cloning it you can see the project opening the index.html file with your f
  [Live Version](https://alexander16108.github.io/todoList-with-webpack/dist)
 
 
-### Build With
- - HTML
- - JAVASCRIPT
- - CSS
- - WEBPACK
-
-
-
 ### Contributors
 
 ***👤Alexander Mayowa Odufuye***
@@ -37,6 +100,8 @@ After cloning it you can see the project opening the index.html file with your f
  GitHub : [@alexander16108](https://github.com/alexander16108)
  
  LinkedIn : [Alexander Odufuye]()
+ 
+ 
 
 ### 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
