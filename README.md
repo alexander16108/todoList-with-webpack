@@ -7,7 +7,7 @@
 ## Getting Started
 > If you want a copy of this file go to the github repository and download it. 
 
-- [`git clone https://github.com/alexander16108/Chaws-Awesome-B00k-Store/`](https://github.com/alexander16108/Chaws-Awesome-B00k-Store.git)
+- [`git clone https://github.com/alexander16108/todoList-with-webpack.git`](https://github.com/alexander16108/todoList-with-webpack.git)
 
 After cloning it you can see the project opening the index.html file with your favorite browser 
 
