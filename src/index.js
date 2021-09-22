@@ -1,6 +1,8 @@
 import './style.css';
+import updateStatus from './status.js'
+
 const container = document.getElementById('output-container');
-const content = [
+let content = [
   {
     index: 0,
     completed: true,
@@ -43,8 +45,17 @@ function displayTask() {
                    container.innerHTML += structure;
     });
   }
+  const checkbox = document.querySelectorAll('.box');
+  checkbox.forEach((chbox) => {
+    chbox.addEventListener('change', updateStatus);
+  });
 }
 
-// module.exports = {displayTask};
-
+window.addEventListener('DOMContentLoaded', () => {
+  if(localStorage.getItem('taskContent')) {
+    content = JSON.parse(localStorage.getItem('taskContent'))
+  } else {
+    localStorage.setItem('taskContent', JSON.stringify(content))
+  }
+});
 displayTask();
