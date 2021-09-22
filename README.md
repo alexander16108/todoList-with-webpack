@@ -14,6 +14,9 @@ After cloning it you can see the project opening the index.html file with your f
 
 ## Screenshot of the page
 
+![image](https://user-images.githubusercontent.com/60612329/134370021-45118641-d933-4dc1-90ff-630bc9b59540.png)
+
+
 ### Live Version Link
 
  <!-- [Live Version](https://alexander16108.github.io/Chaws-Awesome-B00k-Store/) -->
