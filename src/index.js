@@ -1,6 +1,8 @@
 import './style.css';
+import updateStatus from './status.js'
+
 const container = document.getElementById('output-container');
-const content = [
+let content = JSON.parse(localStorage.getItem('taskContent')) || [
   {
     index: 0,
     completed: true,
@@ -21,6 +23,11 @@ const content = [
     completed: false,
     description: 'wash the dishes'
   },
+  {
+    index: 4,
+    completed: false,
+    description: 'wash the dishes'
+  },
 ];
 
 function displayTask() {
@@ -34,12 +41,19 @@ function displayTask() {
         }'>
                    <i class='fas fa-ellipsis-v move-element' data-id='${element.index}'></i>
                    </li>
-                   <hr>
                    `
                    container.innerHTML += structure;
     });
   }
+  const checkbox = document.querySelectorAll('.box');
+  checkbox.forEach((chbox) => {
+    chbox.addEventListener('change', updateStatus);
+  });
 }
-console.log(container);
 
+window.addEventListener('DOMContentLoaded', () => {
+  if(!localStorage.getItem('taskContent')) {
+    localStorage.setItem('taskContent', JSON.stringify(content))
+  }
+});
 displayTask();
