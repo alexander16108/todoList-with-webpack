@@ -21,6 +21,18 @@ Things done so far:
 - Implement Web Storage API for local storage of tasks
 
 
+### 3. Adding Functionalites
+
+- I remove all hardcoded items from the tasks `array`.
+- I created a new JavaScript file for the new functionality.
+- Implemented a function for adding a new task `(add a new element to the array)`.
+- Implemented a function for editing task descriptions.
+- Implemented a function for deleting a task `(remove an element from the array)`.
+- Implemented a function for the "Clear all completed" button `(use filter() method)`.
+- By default new tasks have the property completed set to false and the property index set to the value of the new` array length`.
+- Deleting a task updates all remaining items' indexes, so they represent the current list order and are unique.
+- All changes to the To Do List are saved in `local storage`.
+
 ## Built With
 
 - Major languages: HTML, SCSS, JS
