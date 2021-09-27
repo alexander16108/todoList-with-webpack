@@ -1,7 +1,8 @@
-export default function updateStatus(event) {
-event.target.nextElementSibling.classList.toggle('completed');
- const status = JSON.parse(localStorage.getItem('taskContent'))
- status[event.target.dataset.id].completed = event.target.checked;
- localStorage.setItem('taskContent', JSON.stringify(status))
+function updateStatus(e, i) {
+  const savedTasks = JSON.parse(localStorage.getItem('taskContent'));
+  savedTasks[i].completed = !savedTasks[i].completed;
+  e.target.checked = savedTasks[i].completed;
+  localStorage.setItem('taskContent', JSON.stringify(savedTasks));
 }
+export default updateStatus;
 
